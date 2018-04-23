@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Chicle');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Unica+One');
+
+
+page-pick-milk {
+/* homescreen background image */
+  ion-content {
+      background-color: bisque;
+      background-image: url('../assets/imgs/milk.png');
+
+      width: 100%;
+      background-size: 50%;
+      background-repeat: no-repeat;
+      background-position: 50% 90%	;
+    }
+
+    ion-header {
+      font-family: 'Unica One', cursive;
+      // font-family: 'Luckiest Guy', cursive;
+      // font-family: 'Chicle', cursive;
+
+      font-size: x-large;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+
+    }
+}
